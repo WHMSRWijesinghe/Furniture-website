@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROYAL FURNITURE</title>
+   
+    <!-- FAVICON -->
+    <link rel="icon" type="image" href="Image/Logojpg.jpeg">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;600&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+
+    
+    <!-- Link Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom file link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#"  class="logo"><img src="Image/logopng.png" width="50" height="50" alt="">ROYAL FURNITURE</a>
+    <ul class="navlist">
+        <li><a href="royalfurniture.html" class="active">Home</a></li>
+        <li><a href="royalfurniture.html" class="about">About Us</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#Features">Features</a></li>
+        <li><a href="#testimonials">testimonials</a></li>
+    </ul>
+    <div class="nav-icons">
+        <a href="#"><i class='bx bx-search'></i></a>
+        <a href="#"><i class='bx bxs-cart-alt'></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+     </header>
+    
+    
+    <section class="shop" id="shop">
+        <div class="middle-text">
+            <h4>Our Shop</h4>
+            <h2>Lets Check Popular Products</h2>
+        </div>
+    
+        <div class="shop-content">
+            <div class="row">
+                <img src="Image/chair.png" alt="">
+                <h3>Chair</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.5999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+    
+            <div class="row">
+                <img src="Image/table.png" alt="">
+                <h3>Table</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.9999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+    
+            <div class="row">
+                <img src="Image/Geate.png" alt="">
+                <h3>Armchair</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.9999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+    
+            
+        </div>
+        <div class="shop-content">
+            <div class="row">
+                <img src="Image/BED.png" alt="">
+                <h3>Chair</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.5999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+    
+            <div class="row">
+                <img src="Image/Cuberd.png" alt="">
+                <h3>Table</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.9999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+    
+            <div class="row">
+                <img src="Image/Sofa.png" alt="">
+                <h3>Armchair</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.9999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <button class="get-quote" onclick="openForm()">Get Quote</button>
+                        <div class="popup-wrapper">
+                            <div class="popup">
+                              <botton class="close-btn"></botton>
+                              <form class="popup-form" action="Contact.php" method="post" autocomplete="off">
+                                <h2 class="popup-form__title">Request a Quote</h2>
+                                <input type="text" name="name" class="popup-form__input" placeholder="Full Name">
+                                <input type="tel" name="email" class="popup-form__input" placeholder="My Email" required>
+                                <input type="tel" name="phone" class="popup-form__input" placeholder="Phone Number">
+                                <input type="tel" name="quote" class="popup-form__input" value="Request a quote for Armchair">
+                                <textarea name="massage" id="massage" cols="40" rows="4" placeholder="Massage"></textarea>
+                                <br>
+                                <button type="submit" class="popup-form__submit">Send</button>
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+   
+            
+        </div>
+        <div class="shop-content">
+            <div class="row">
+                <img src="Image/chair.png" alt="">
+                <h3>Chair</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.5999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+    
+            <div class="row">
+                <img src="Image/table.png" alt="">
+                <h3>Table</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.9999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+    
+            <div class="row">
+                <img src="Image/Geate.png" alt="">
+                <h3>Armchair</h3>
+                <p>It is a long established fact that a reader</p>
+                <div class="in-next">
+                    <div class="price">
+                        <h6>Rs.9999.00</h6>
+                    </div>
+                    <div class="M-btnn">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+    
+            
+        </div>
+     </section>
+
+     <section>
+        <footer>
+            <div class="content">
+              <div class="left box">
+                <div class="upper">
+                  <div class="topic">About us</div>
+                  <p>CodingLab is a channel where you can learn HTML,
+                  CSS, and also JavaScript along with creative CSS Animations and Effects.</p>
+                </div>
+                <div class="lower">
+                  <div class="topic">Contact us</div>
+                  <div class="phone">
+                    <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+                  </div>
+                  <div class="email">
+                    <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="middle box">
+                <div class="topic">Our Services</div>
+                <div><a href="#">Web Design, Development</a></div>
+                <div><a href="#">Web UX Design, Reasearch</a></div>
+                <div><a href="#">Web User Interface Design</a></div>
+                <div><a href="#">Theme Development, Design</a></div>
+                <div><a href="#">Mobile Application Design</a></div>
+                <div><a href="#">Wire raming & Prototyping</a></div>
+              </div>
+              <div class="right box">
+                <div class="topic">Subscribe us</div>
+                <form action="#">
+                  <input type="text" placeholder="Enter email address">
+                  <input type="submit" name="" value="Send">
+                  <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Copyright © 2020 <a href="#">CodingLab</a> All rights reserved</p>
+            </div>
+          </footer>
+    </section>
+
+
+
+     <!-- Link to js -->  
+     <script src="script.js"></script>
+
+   
+     <!-- Swifer JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
